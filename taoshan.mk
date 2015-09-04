@@ -190,7 +190,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     wlan.driver.ath=0 \
     wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15
+    wifi.supplicant_scan_interval=30
 
 PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg \
@@ -283,7 +283,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     camera2.portability.force_api=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.hwc.mdpcomp.enable=true
+    persist.hwc.mdpcomp.enable=true \
 
 # GPS-2
 PRODUCT_PROPERTY_OVERRIDES += \
