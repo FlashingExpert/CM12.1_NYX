@@ -3082,7 +3082,7 @@ SectionDevice
 		'LINEOUT2 Volume':1:100
 		'SLIM_0_RX Channels':0:One
 		'RX1 MIX1 INP1':0:RX1
-		'RX1 Digital Volume':1:76
+		'RX1 Digital Volume':1:78
 		'PMIC SPK Gain':0:POS_10_DB
 	EndSequence
 
@@ -3107,7 +3107,7 @@ SectionDevice
                 'RX3 MIX1 INP1':0:RX1
                 'RX3 MIX1 INP2':0:RX6
                 'RX4 DSM MUX':0:DSM_INV
-                'RX3 Digital Volume':1:68
+                'RX3 Digital Volume':1:69
                 'LINEOUT1 Volume':1:100
                 'LINEOUT3 Volume':1:100
                 'SLIM TX3 MUX':0:RMIX3
@@ -3117,7 +3117,7 @@ SectionDevice
                 'RX3 MIX1 INP1':0:ZERO
                 'RX3 MIX1 INP2':0:ZERO
                 'RX4 DSM MUX':0:CIC_OUT
-                'RX3 Digital Volume':1:68
+                'RX3 Digital Volume':1:65
                 'LINEOUT1 Volume':1:0
                 'LINEOUT3 Volume':1:0
                 'SLIM TX3 MUX':0:ZERO
@@ -3140,8 +3140,8 @@ SectionDevice
 		'DAC4 MUX':0:ON
 		'HPHL Volume':1:80
 		'HPHR Volume':1:80
-		'RX2 Digital Volume':1:64.5
-		'RX3 Digital Volume':1:64.5
+		'RX2 Digital Volume':1:69
+		'RX3 Digital Volume':1:69
 	EndSequence
 
 	DisableSequence
